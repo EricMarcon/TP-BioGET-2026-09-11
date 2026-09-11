@@ -25,8 +25,8 @@ author:
     url: https://example.org/
 # Abstract and Keywords
 abstract: |
-  This document is only a demo explaining how to use the Stylish Article template.
-keywords: [template, demo]
+  La forêt de Paracou est plus diverse que celle de Barro Colorado Island.
+keywords: [Biodiversité, Forêt tropicale]
 # Bibliography
 reference-section-title: References
 bibliography: references.bib
@@ -47,10 +47,10 @@ execute:
   # Cache code results
   cache: true
 # Template specific
-journalinfo: "Publication reference"
+journalinfo: "Preprint"
 archive: "DOI: xxx/xx"
-keywordlabel: Keywords
-corrauthorlabel: Corresponding Author
+keywordlabel: Mots-Clés
+corrauthorlabel: Auteur correspondant
 ---
 
 ```{r}
@@ -75,7 +75,10 @@ packages_installed <- vapply(
   quietly = TRUE
 ) 
 # Install missing packages
-install.packages(names(packages_installed)[!packages_installed])
+install.packages(
+  names(packages_installed)[!packages_installed],
+  quiet = FALSE
+)
 
 # Allow size='small' or any valid Latex font size in chunk options
 def.chunk.hook <- knitr::knit_hooks$get("chunk")
@@ -128,7 +131,7 @@ set.seed(973)
 
 # Matériels et méthodes
 
-- Présentation du site de Paracou.
+- Présentation du site de Paracou [@Gourlet-Fleury2004] .
 
 ```{r}
 #| label: Paracou
