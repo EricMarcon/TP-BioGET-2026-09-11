@@ -4,11 +4,15 @@
 .RData
 .Ruserdata
 
+# Mac OS
+.DS_Store
+
 # Output
 /*.html
 /*.pdf
 /*.tex
 # Intermediate files
+/nul
 /*.aux
 /*.log
 /*.toc
@@ -17,5 +21,4 @@
 /*_cache/
 
 # Template (copied from _extensions)
-/stylish_article.cls
-
+/stylisharticle.cls
