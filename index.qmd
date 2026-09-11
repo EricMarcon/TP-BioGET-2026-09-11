@@ -1,5 +1,5 @@
 ---
-title: "Demo Stylish Article"
+title: "Comparaison de la diversité de deux forêts tropicales"
 # Output formats
 format:
   stylisharticle-pdf:
