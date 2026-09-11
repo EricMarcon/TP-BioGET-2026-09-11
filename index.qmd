@@ -188,6 +188,7 @@ paracou6 %>%
 
 Profils de diversité de Paracou parcelle 6 (courbe bleue) et BCI (courbe rouge).
 La figure représente le nombre effectif d'espèces (nombre de Hill) en fonction de l'ordre de la diversité.
+Les enveloppes grisées représentent l'intervalle de confiance à 95% de la diversité.
 :::
 
 # Discussion
