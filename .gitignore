@@ -1,10 +1,21 @@
+# RStudio files and folders
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
 
-*.html
-*.pdf
-*.log
-*_files/
-index_cache/
+# Output
+/*.html
+/*.pdf
+/*.tex
+# Intermediate files
+/*.aux
+/*.log
+/*.toc
+# Working folders
+/*_files/
+/*_cache/
+
+# Template (copied from _extensions)
+/stylish_article.cls
+
